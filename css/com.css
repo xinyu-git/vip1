@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document wlo:Cflower */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border:0 none; font:inherit; margin:0; padding:0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block;}
+ol, ul { list-style:outside none none;}
+blockquote, q { quotes:none;}
+blockquote::before, blockquote::after, q::before, q::after { content:none;}
+table { border-collapse:collapse; border-spacing:0;}
+*{ box-sizing:border-box; outline:0 none; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+input, textarea { border-radius:0; outline:0 none; resize:none; -webkit-appearance: none;/*去掉iOS下input的默认内阴影*/}
+.clearfix:after,.clearfloat:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
+html{ font-family:"Heiti SC",Helvetica,"Microsoft YaHei",sans-serif; -webkit-text-size-adjust:none;}
+body{ margin:0 auto; min-width:320px; position:relative; background: #232932;width:100%;height: 100%; }
+#wrap{ margin:0 auto; min-width:320px;}
+a{ text-decoration:none; color:inherit;}
+.fl{float:left;}
+.fr{float:right;}
+body{}
+
+.footer{ text-align:center; padding-top:0.2rem; color:#626262; position:relative;}
+.con_foot{background-color: #161616;}
+.copyright span,.copyright img,.note span{ display:inline-block; vertical-align:top;}
+.copyright,.note{ margin:0 auto;}
+.copyright{ height:0.8rem;}
+.copyright span{ margin-top:0.04rem; margin-left:0.18rem; text-align:left; font-size:0.2rem;}
+.copyright img{ width:1.4rem;}
+.note{ padding:0.2rem 0; border-top:1px solid #303030; max-width:6rem; line-height:0.28rem; overflow:hidden;}
+.note span{ margin:0 0.08rem; font-size:0.2rem; color:#8c8c8c;}
+
+
+#maskLayer{ display:none; position:absolute; z-index:100; left:0; top:0; width:100%; margin:0 auto; height:100%; background:#111; opacity:0.5; filter:alpha(opacity=50);}
+#alertInfo{ display:none; background:#000; left:50%; top:-100%; position:absolute; z-index:200; width:96%; max-width:640px;}
+#alertInfo .close{ display:none;position:absolute; right:8px; top:0.16rem; overflow:hidden; font-size:0; text-indent:-999999px; width:0.21rem; height:0.23rem; cursor:pointer; background:url(../images/close.png) no-repeat center center; z-index:220; background-size: 100%; transition:transform ease-in 0.2s;}
+#alertInfo .close:hover{ -webkit-transform:rotateZ(180deg); -moz-transform:rotateZ(180deg); -ms-transform:rotateZ(180deg); -o-transform:rotateZ(180deg); transform:rotateZ(180deg);}
+
+
+
+
+/* @media screen and (min-width:640px){
+#wrap{ box-shadow:0 0 0.08rem #000;}
+}
+ */
+
+
+
+/*弹窗*/
+.dialog_close{width:0.45rem;height:0.45rem;background: url(../images/dialog_close.png) no-repeat center;background-size: 100% 100%;position: absolute;left:50%;margin-left:-0.22rem;bottom:-0.7rem;}
+.tsInfo{ padding:0.35rem 0 0;font-size:16px; line-height:1.5; color:#fff; text-align:center;background: url(../images/tsInfobg.png) no-repeat center;background-size: 100% 100%;}
+.account_con{padding:0.1rem 0.1rem;background: url(../images/icount_bg.png) no-repeat center;background-size: 100% 100%;font-size: 0.34rem;text-align: center;}
+.choose_region{text-align: center;margin:0.4rem 0 0.3rem;}
+.choose_region a{display: inline-block;*display: inline;*zoom:1;width: 1.96rem;height: 0.88rem;margin:0 0.15rem;font-size: 0.28rem;color: #bac7de;text-align: center;line-height: 0.88rem;background: url(../images/regionbg.png) no-repeat center;background-size: 1.78rem 0.7rem;}
+.choose_region a.active{background: url(../images/regionbg1.png) no-repeat center;background-size: 100% 100%;}
+.confirmGet_btn{margin-top:0;}
+.confirmGet_btn a{display: block;width: 100%;height: 0.7rem;background: url(../images/btnbg1.png) no-repeat center;background-size: 100% 100%;font-size: 0.32rem; color: #2d140d;text-align: center;line-height: 0.7rem;font-weight: bold;}
+.tips_con,.region_tips{font-size:0.32rem;}
+.region_tips{color:#f52617;margin:0.1rem 0 0.2rem;display: none;}
+.tips_con{padding:0.7rem 0.1rem; color: #d9f8ff;}

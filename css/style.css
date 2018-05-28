@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* 礼包页面 */
+.wrap{width: 100%;height: 100%;position: relative;}
+.giftPage {width: 100%;height:auto;background: url(../images/bg.jpg) no-repeat center top #232932;background-size: 100% 5.7rem;}
+.giftPage_top{margin-bottom: 0.5rem;}
+.giftPage_container{width: 100%;height: auto;padding-bottom:1rem;background: url(../images/bg1.png) no-repeat center;background-size: 100% 20.08rem;}
+.userInfo{width: 100%;height: 0.96rem;background: url(../images/userbg.png) no-repeat center;background-size: 100% 100%;}
+.userList {height: 0.78rem;font-size: 0.26rem;color: #bac7de;overflow: hidden;}
+.userList dd,.userList dt{float: left;}
+.userList dt{width:22%; height: 100%;}
+.account{width:45%; }
+.region{width:33% }
+.userList dd span,.userList dd i{display: inline-block;*display:inline;*zoom:1;}
+.userList dd i{line-height: 0.78rem;}
+dd.account span{max-width:2.6rem; }
+.userList dd span{vertical-align: middle;background: url(../images/nav_icon.png) no-repeat center top;background-size: 100% 100%;min-width: 1.16rem;padding:0.1rem 0.15rem;max-height: 0.75rem;text-align: center;margin-left: 0.1rem;line-height: 0.2rem;word-break:break-all; }
+.gift_tips{width:6.74rem;margin:1.55rem auto 0.6rem;padding:0.1rem 0;font-size:0.26rem;color: #9ad3ff;text-align: center;background: url(../images/tipsbg.png) no-repeat center;background-size: 100% 100%; }
+.gift_tips p{padding:0 1.1rem;}
+.getBtn_box{width: 2.86rem;height: 1.37rem;margin:0 auto;}
+.getBtn_box a{display: block;width:100%;height: 100%;}
+.get_btn{background: url(../images/get_btn.png) no-repeat center;background-size:100% 100%;}
+.get_alr_btn{background: url(../images/get_alr_btn.png) no-repeat center;background-size:100% 100%;}
+.gift_part{margin-bottom: 0.3rem;}
+.gift_tit{width: 6.87rem;height:0.4rem;margin:0 auto 0.1rem;background: url(../images/titbg.png) no-repeat center bottom;background-size: 100% 0.19rem;text-align: center;line-height: 0.4rem;font-size:0.32rem;color: #fff;  }
+.gift_list{width: 7.12rem;margin:0 auto;font-size: 0.26rem;color:#fff;}
+.gift_list li{width: 3.3rem;height:3.3rem;float:left;margin:0.13rem 0.13rem;background: url(../images/giftbg.png) no-repeat center;background-size: 100% 100%;}
+.gift_list li>a{display: block;width: 100%;height: 100%;}
+.giftInfo{height:2.74rem;position: relative;}
+.giftInfo img{width: 100%;}
+.giftName{width: 100%;position: absolute;left:0;bottom:0.2rem;text-align: center;}
+.giftPay{line-height:0.56rem; }
+.giftPay span{float: left;margin-left:0.15rem; }
+.giftPay i{float: right;width: 1.3rem;height: 0.56rem;background: url(../images/buy_btn.png) no-repeat center;background-size: 100% 100%;}
+/*账号关联页面*/
+.specialHtml{width: 100%;height: 100%;}
+.accountPage,.failPage{width: 100%;min-height: 100%; }
+.accountPage{background:url(../images/bg2.jpg) no-repeat fixed top;background-size: cover;}
+.failPage{background:url(../images/bg3.jpg) no-repeat fixed top;background-size: cover;}
+.accountBind_box{padding-top:3.75rem; font-size: 0.24rem;color:#73829d;text-align: center;}
+.accountUl{}
+.accountUl li{width: 5.8rem;height: 0.74rem; line-height:0.74rem;margin:0 auto 0.3rem;overflow: hidden;font-size: 0.3rem;color: #60aae5;}
+.accountUl li label,.accountUl li input{float: left;line-height: 0.74rem;height: 100%;}
+.accountUl li label{width: 1.72rem;background: url(../images/labelbg.png) no-repeat center;background-size: 100% 100%;color: #bac7de;font-size:0.34rem;}
+.accountUl li input{width:4.08rem;padding:0 0.15rem;background:#0f1319;border:1px solid #3c495c;border-left: none;font-size:0.32rem;color: #5672a0; }
+.accountUl li.errorMsg{margin-bottom: 0;display:none;}
+.accountUl li.errorMsg.erro{display: block;}
+.public-btn{width: 7.33rem;height: 1.4rem;margin:0 auto;background: url(../images/btnbg.png) no-repeat center;background-size: 100% 100%;font-size: 0.34rem;color: #2b1009;line-height: 1.4rem;font-weight: bold;}
+.public-btn a{display: block;width: 100%;height: 100%;}
+.warm_tips{padding:0 0.2rem;}
+input::-webkit-input-placeholder {
+ /* WebKit browsers */
+color: #5672a0;
+}
+
+/*不符合页面*/
+.customers_box{padding-top:1rem; }
+.fail_tips{width: 100%;text-align:center;padding:0.8rem 0;margin-bottom:0.7rem;background: url(../images/failbg.png) no-repeat center;background-size: 100% 3.08rem;font-size: 0.4rem;color: #9ad3ff;}
+.fail_tips p{padding:0 1rem;}
+.customers_info{padding:0 0.3rem;font-size: 0.3rem;color: #fff;}
+.customers_info li{padding-bottom:0.5rem;position: relative;}
+.customers_tit{height: 0.66rem;margin-bottom: 0.1rem;}
+.customers_tit img{height: 100%;}
+.customers_info li p{padding:0 0.1rem;}
+.customers_info li.customers_recharge p{width:4.7rem; }
+.view_btn{position: absolute;right: 0;top: 0.76rem;width: 1.5rem;height: 0.66rem;background: url(../images/view_btn.png) no-repeat center;background-size: 100% 100%;}
+.recommended{overflow: hidden;margin-top: 0.4rem;}
+.recommended a{float: left;width: 2.14rem;height: 1.32rem;margin-left:0.2rem; }
+.recommended a:first-child{margin-left:0;}
+.recommended a img{width: 100%;}
